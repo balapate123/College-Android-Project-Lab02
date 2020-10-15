@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/bhargavApt"
+        android:icon="@drawable/ic_bhargav_option"
+        android:title="Apartment"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/bhargavDer"
+        android:title="Detached Home"
+        app:showAsAction="never"/>
+    <item android:id="@+id/bhargavSemi"
+        android:title="Semi-Detached Home"
+        app:showAsAction="never"/>
+    <item android:id="@+id/bhargavCondo"
+        android:title="Condominium Apartment"
+        app:showAsAction="never"/>
+    <item android:id="@+id/bhargavTown"
+        android:title="Town House"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MarsoniaApartment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="List of Appartment"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/bhargavAptImage1"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:src="@drawable/apartment1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bournbourn Drive"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/bhargavAptImage2"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:src="@drawable/apartment2"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuxedo Park"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageView
+        android:id="@+id/bhargavAptImage3"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:src="@drawable/apartment3"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+
+    <CheckBox
+        android:id="@+id/bhargavCB3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tel Aviv Post"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <Button
+        android:id="@+id/Aptbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onClickNext"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="642dp" />
+</LinearLayout>

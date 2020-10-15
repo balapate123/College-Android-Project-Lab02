@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MarsoniaSemi">
+
+    <TextView
+        android:id="@+id/textViewSemi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="List of Semi Detached Homes"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/bhargavSemiImage1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/semidetached1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longe Street"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/bhargavSemiImage2"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:src="@drawable/semidetached2"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brimorton Drive"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageView
+        android:id="@+id/bhargavSemiImage3"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:src="@drawable/semidetached3"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Markham Road"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <Button
+        android:id="@+id/Semibutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onClickNext"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="642dp" />
+</LinearLayout>

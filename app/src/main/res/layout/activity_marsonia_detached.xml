@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarsoniaDetached">
+
+    <TextView
+        android:id="@+id/textViewDetached"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="List of Detached Homes"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/bhargavDetImage1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/detached1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crescent Park"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/bhargavDetImage2"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:src="@drawable/detached2"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerrard Street"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageView
+        android:id="@+id/bhargavDetImage3"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:src="@drawable/detached3"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+
+    <CheckBox
+        android:id="@+id/bhargavCB9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ying Yang Road"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <Button
+        android:id="@+id/Detbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onClickNext"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="642dp" />
+</LinearLayout>

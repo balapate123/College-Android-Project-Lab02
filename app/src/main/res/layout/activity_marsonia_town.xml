@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MarsoniaTown">
+
+    <TextView
+        android:id="@+id/textViewTown"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="List of Town Houses"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/bhargavTownImage1"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:src="@drawable/townhouse1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drownhill Road"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/bhargavTownImage2"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:src="@drawable/semidetached2"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rough Hill"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageView
+        android:id="@+id/bhargavTownImage3"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:src="@drawable/semidetached3"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scarborough Bluffs"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <Button
+        android:id="@+id/Townbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onClickNext"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+</LinearLayout>

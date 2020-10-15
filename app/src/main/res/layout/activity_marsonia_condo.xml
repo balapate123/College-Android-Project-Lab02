@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarsoniaCondo">
+
+    <TextView
+        android:id="@+id/CondoView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="List of Condominium"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/bhargavCondo1"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:src="@drawable/condo1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Park Street"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/bhargavCondo2"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:src="@drawable/condo2"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/bhargavCB5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="China Town"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageView
+        android:id="@+id/bhargavCondo3"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:src="@drawable/condo3"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <CheckBox
+        android:id="@+id/bhargavCB6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Painted Post Drive"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <Button
+        android:id="@+id/Condobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onClickNext"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+</LinearLayout>

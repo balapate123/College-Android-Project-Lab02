@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BhargavLab02</string>
+
+    <string name="message"> Select your program in the menu</string>
+
+    <string-array name="available_courses">
+        <item>Bournbourn Drive</item>
+        <item>Tuxedo Park</item>
+        <item>Tel Aviv Post</item>
+        <item>Drownhill Road</item>
+        <item>Rough Hill</item>
+        <item>Scarborough Bluffs</item>
+        <item>Crescent Park</item>
+        <item>Gerrard Street</item>
+        <item>Ying Yang Road</item>
+        <item>Longe Street</item>
+        <item>Brimorton Drive</item>
+        <item>Markham Road</item>
+        <item>Park Street</item>
+        <item>China Town</item>
+        <item>Painted Post Drive</item>
+
+    </string-array>
+</resources>
